@@ -69,9 +69,7 @@ normalized_X_val = pd.DataFrame(
     columns = X_val.columns
 )
 
-
 Y_pred = xgb_model.predict(normalized_X_val)
-
 
 print("Accuracy")
 print(accuracy_score(Y_val, Y_pred))

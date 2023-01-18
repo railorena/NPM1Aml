@@ -178,11 +178,6 @@ int main (int argc, char **argv){
 
     }
 
-//    printVector(cond1);
-//    cout << endl;
-//    printVector(cond2);
-//    cout << endl;
-
     //======================================//
     //---reading the couting table---//
     ifstream infile(filename);
