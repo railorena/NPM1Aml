@@ -2,6 +2,13 @@
 
 A reference-free pipeline to investigate RNAseq data using k-mers and Machine Learning methods to better understand prognosis classification and key mechanisms of AML pathogenesis.
 
+## Required
+Kmtricks tool [git](<https://github.com/tlemane/kmtricks/>)
+
+R version 4.1.2: Package seqinr [cran](<https://cran.r-project.org/web/packages/seqinr/index.html>)
+
+C++: Boost String Algorithms Library (doc] (<https://www.boost.org/doc/libs/1_81_0/doc/html/string_algo/reference.html#header.boost.algorithm.string_hpp>)
+
 
 ## Running
 **Kmtricks**
