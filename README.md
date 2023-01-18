@@ -7,8 +7,8 @@ A reference-free pipeline to investigate RNAseq data using k-mers and Machine Le
 **Kmtricks**
 
 Necessary files:
-- samples file
-- fastq fil
+- samples
+- fastq files
 
 ```
 ~/kmtricks pipeline --file samples --run-dir temp --kmer-size 31 -t 4 --until merge
@@ -18,7 +18,7 @@ Necessary files:
 **Adapting matrix script**
 
 Necessary files:
-- samples file
+- samples
 - sorted_matrix.tsv
 ```
 ./adapt_mat.sh
