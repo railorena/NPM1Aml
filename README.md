@@ -31,12 +31,14 @@ Necessary files:
 - samples_cond
 ```
 ./cvar
+tsv_to_fasta.R
 ```
 
 **STAR and Samtools**
+
 Necessary files:
 - output.fasta
 ```
 STAR --genomeDir /data/indexes/STAR/2.7.6a/GRCh38.97 --readFilesType Fastx  --readFilesIn output.fa --outFileNamePrefix leucegene_ --outStd Log --runMode alignReads --runThreadN 10 --outSAMunmapped Within
-	samtools view -b output_Aligned.out.sam |samtools sort > output_Aligned.out.bam	
+samtools view -b output_Aligned.out.sam |samtools sort > output_Aligned.out.bam	
 ```
