@@ -3,7 +3,7 @@
 A reference-free pipeline to investigate RNAseq data using k-mers and Machine Learning methods to better understand prognosis classification and key mechanisms of AML pathogenesis.
 
 
-## Commands
+## Running
 **Kmtricks**
 
 Necessary files:
@@ -42,3 +42,15 @@ Necessary files:
 STAR --genomeDir /data/indexes/STAR/2.7.6a/GRCh38.97 --readFilesType Fastx  --readFilesIn output.fa --outFileNamePrefix leucegene_ --outStd Log --runMode alignReads --runThreadN 10 --outSAMunmapped Within
 samtools view -b output_Aligned.out.sam |samtools sort > output_Aligned.out.bam	
 ```
+
+**Generating model**
+
+Necessary files:
+- train.tsv
+```
+./xgb_classification.py
+```
+
+
+
+Note: examples of the files can be found in the folder *examples*
