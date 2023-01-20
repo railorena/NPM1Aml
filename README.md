@@ -82,13 +82,15 @@ Rscript getAnnotation.R
 To adapt the selected k-mers to train the model
 
 ```
-Rscript getAnnotation.R
+Rscript building_train.R
 ```
 
 **Generating model**
 
+To generate a XGB model with the selected k-mers
+
 Necessary files:
-- train.tsv : file with
+- train.tsv : file from last script
 
 ```
 ./xgb_classification.py
