@@ -9,9 +9,9 @@ R version 4.1.2: Package Seqinr ([cran](<https://cran.r-project.org/web/packages
 
 C++: Boost String Algorithms Library ([doc](<https://www.boost.org/doc/libs/1_81_0/doc/html/string_algo/reference.html#header.boost.algorithm.string_hpp>))
 
-STAR tool ([git](<https://github.com/alexdobin/STAR>)
+STAR tool ([git](<https://github.com/alexdobin/STAR>))
 
-Samtools ([git](https://github.com/samtools/samtools>)
+Samtools ([git](https://github.com/samtools/samtools>))
 
 
 ## Running
