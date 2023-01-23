@@ -1,6 +1,6 @@
 library(seqinr)
 
-seqs <- read.csv("output.tsv", sep = ",", header = T)
+seqs <- read.csv("output.tsv", sep = "\t", header = T)
 nrow(seqs)
 seqnames <- paste0("seq_",rownames(seqs))
 seqs <- as.list(seqs$tag)
